@@ -1,29 +1,29 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
-// import Step1 from './01-state/App'
-// import Step1Teach from './01-state/teach/App'
-// import Step1Answers from './01-state/answers/App'
-// import Step1AnswersBonus1 from './01-state/answers/App.bonus-1'
-// import Step1AnswersBonus2 from './01-state/answers/App.bonus-2'
+import Step1 from './01-jsx/App'
+import Step1Teach from './01-jsx/teach/App'
+import Step1Answers from './01-jsx/answers/App'
+import Step1AnswersBonus1 from './01-jsx/answers/App.bonus-1'
+import Step1AnswersBonus2 from './01-jsx/answers/App.bonus-2'
 
-// import Step2 from './02-effects/App'
-// import Step2Teach from './02-effects/teach/App'
-// import Step2Answers from './02-effects/answers/App'
-// import Step2AnswersBonus1 from './02-effects/answers/App.bonus-1'
-// import Step2AnswersBonus2 from './02-effects/answers/App.bonus-2'
+// import Step2 from './02-state/App'
+// import Step2Teach from './02-state/teach/App'
+// import Step2Answers from './02-state/answers/App'
+// import Step2AnswersBonus1 from './02-state/answers/App.bonus-1'
+// import Step2AnswersBonus2 from './02-state/answers/App.bonus-2'
 
-// import Step3 from './03-context/App'
-// import Step3Teach from './03-context/teach/App'
-// import Step3Answers from './03-context/answers/App'
-// import Step3AnswersBonus1 from './03-context/answers/App.bonus-1'
-// import Step3AnswersBonus2 from './03-context/answers/App.bonus-2'
+// import Step3 from './03-effects/App'
+// import Step3Teach from './03-effects/teach/App'
+// import Step3Answers from './03-effects/answers/App'
+// import Step3AnswersBonus1 from './03-effects/answers/App.bonus-1'
+// import Step3AnswersBonus2 from './03-effects/answers/App.bonus-2'
 
-// import Step4 from './04-custom-hooks/App'
-// import Step4Teach from './04-custom-hooks/teach/App'
-// import Step4Answers from './04-custom-hooks/answers/App'
-// import Step4AnswersBonus1 from './04-custom-hooks/answers/bonus-1/App'
-// import Step4AnswersBonus2 from './04-custom-hooks/answers/bonus-2/App'
+// import Step4 from './04-lists/App'
+// import Step4Teach from './04-lists/teach/App'
+// import Step4Answers from './04-lists/answers/App'
+// import Step4AnswersBonus1 from './04-lists/answers/bonus-1/App'
+// import Step4AnswersBonus2 from './04-lists/answers/bonus-2/App'
 
 // import Quiz from './quiz/App'
 
@@ -139,7 +139,6 @@ const Index = () => (
 const App = () => (
   <Router>
     <Switch>
-      {/*}
       <Route path="/step-1/answers/bonus-1">
         <Step1AnswersBonus1 />
       </Route>
@@ -155,7 +154,7 @@ const App = () => (
       <Route path="/step-1">
         <Step1 />
       </Route>
-{*/}
+
       {/*}
 
       <Route path="/step-2/answers/bonus-1">
