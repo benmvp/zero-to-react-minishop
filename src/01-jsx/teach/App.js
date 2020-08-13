@@ -22,12 +22,14 @@ const App = () => {
     <main style={{ maxWidth: '750px', margin: '0 auto' }}>
       <h1 style={{ fontSize: '5em' }}>Learn React!</h1>
       <p className="text-center">{contents}</p>
-      <label htmlFor={inputId}>Input label</label>
-      <TextInput
-        id={inputId}
-        placeholder={`Search ${numItems} items`}
-        color="#00008b"
-      />
+      <aside>
+        <label htmlFor={inputId}>Input label</label>
+        <TextInput
+          id={inputId}
+          placeholder={`Search ${numItems} items`}
+          color="#00008b"
+        />
+      </aside>
     </main>
   )
 }

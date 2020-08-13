@@ -10,10 +10,6 @@ Conceptually, components are like JavaScript functions. They accept arbitrary in
 
 🏅 The goal of this step is to practice with JSX and creating components.
 
-## 🐇 Jump Around
-
-[Concepts](#-concepts) | [Learn](#-learn) | [Exercises](#-exercises) | [Elaboration & Feedback](#-elaboration--feedback) | [Resources](#-resources)
-
 ## ⭐ Concepts
 
 - Rendering elements with JSX
@@ -22,164 +18,11 @@ Conceptually, components are like JavaScript functions. They accept arbitrary in
 - Creating and composing React components
 - Configuring components via passing props
 
-## 📝 Learn
-
-We bare-bones file that defines a component that renders nothing:
-
-```js
-import React from 'react'
-
-const App = () => null
-
-export default App
-```
-
-We can add JSX markup:
-
-```js
-const App = () => {
-  return <main>Learn React!</main>
-}
-```
-
-Add nested JSX markup. For example:
-
-```js
-const App = () => {
-  return (
-    <main>
-      <h1>Learn React!</h1>
-      <p>This is a paragraph of text written in React</p>
-    </main>
-  )
-}
-```
-
-Add attributes to the nested JSX markup. For example:
-
-```js
-const App = () => {
-  return (
-    <main>
-      <h1>Learn React!</h1>
-      <p>This is a paragraph of text written in React</p>
-      <aside>
-        <input type="text" id="input" placeholder="Search 3 items" />
-      </aside>
-    </main>
-  )
-}
-```
-
-Try adding classes to JSX markup, or a `<label>` to connect inputs:
-
-```js
-const App = () => {
-  return (
-    <main>
-      <h1>Learn React!</h1>
-      <p className="text-center">
-        This is a paragraph of text written in React
-      </p>
-      <label htmlFor="input">Input label</label>
-      <input type="text" id="input" placeholder="Search 3 items" />
-    </main>
-  )
-}
-```
-
-Notice the special `className` & `htmlFor` attribute names.
-
-There is a slightly different syntax to pass variables to props:
-
-```js
-const App = () => {
-  const contents = 'This is a paragraph of text written in React'
-  const inputId = 'input'
-  const numItems = 3
-
-  return (
-    <main>
-      <h1>Learn React!</h1>
-      <p className="text-center">{contents}</p>
-      <label htmlFor={inputId}>Input label</label>
-      <input
-        type="text"
-        id={inputId}
-        placeholder={`Search ${numItems} items`}
-      />
-    </main>
-  )
-}
-```
-
-You can add inline styles to some elements by passing an object to the `style` prop:
-
-```js
-const App = () => {
-  const contents = 'This is a paragraph of text written in React'
-  const inputId = 'input'
-  const numItems = 3
-
-  return (
-    <main style={{ maxWidth: '750px', margin: '0 auto' }}>
-      <h1 style={{ fontSize: '5em' }}>Learn React!</h1>
-      <p className="text-center">{contents}</p>
-      <label htmlFor={inputId}>Input label</label>
-      <input
-        type="text"
-        id={inputId}
-        placeholder={`Search ${numItems} items`}
-        style={{ color: '#00008b', marginTop: 30 }}
-      />
-    </main>
-  )
-}
-```
-
-Notice the use of camelCase style properties (`maxWidth`, `fontSize`, `marginTop`, etc)
-
-We can create our own custom `TextInput` component to wrap the `<input />`:
-
-```js
-const TextInput = (props) => {
-  const { id, placeholder, color } = props
-
-  return (
-    <input
-      type="text"
-      id={id}
-      placeholder={placeholder}
-      style={{ color: color, marginTop: 30 }}
-    />
-  )
-}
-
-const App = () => {
-  const contents = 'This is a paragraph of text written in React'
-  const inputId = 'input'
-  const numItems = 3
-
-  return (
-    <main style={{ maxWidth: '750px', margin: '0 auto' }}>
-      <h1 style={{ fontSize: '5em' }}>Learn React!</h1>
-      <p className="text-center">{contents}</p>
-      <label htmlFor={inputId}>Input label</label>
-      <TextInput
-        id={inputId}
-        placeholder={`Search ${numItems} items`}
-        color="#00008b"
-      />
-    </main>
-  )
-}
-```
-
-Use the React Developer Tools to inspect the component hierarchy of the `App`.
-
 ## 💡 Exercises
 
 In [`App.js`](./App.js), convert the HTML markup for a Giphy search result to JSX and render within the `App` component.
+
+_Reminder:_ The `style` attribute in JSX takes an object.
 
 (If at any point you get stuck, you can take a peek at the [answers](./answers/App.js))
 
@@ -223,17 +66,15 @@ After you're done with the exercise and before jumping to the next step, please 
 - [JSX in Depth](https://reactjs.org/docs/jsx-in-depth.html)
 - [JSX Tips and Gotchas for Beginners](https://ui.dev/jsx/)
 - [Components and Props](https://reactjs.org/docs/components-and-props.html)
+- [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 - [Inline Styles](https://reactjs.org/docs/dom-elements.html#style)
 - [Material-UI](https://material-ui.com/)
 - [React + Foundation](https://react.foundation/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Custom Prop Types](https://github.com/airbnb/prop-types)
 - [React without JSX](https://reactjs.org/docs/react-without-jsx.html)
 - [Babel REPL](http://babeljs.io/repl/)
-
-## ❓ Questions
-
-Got questions after the minishop? Need further clarification? Feel free to post a question in [Ben Ilegbodu's AMA](https://www.benmvp.com/ama/)!
 
 ## 👉🏾 Next Step
 
