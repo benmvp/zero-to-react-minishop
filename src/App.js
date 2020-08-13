@@ -7,11 +7,11 @@ import Step1Answers from './01-jsx/answers/App'
 import Step1AnswersBonus1 from './01-jsx/answers/App.bonus-1'
 import Step1AnswersBonus2 from './01-jsx/answers/App.bonus-2'
 
-// import Step2 from './02-state/App'
-// import Step2Teach from './02-state/teach/App'
-// import Step2Answers from './02-state/answers/App'
-// import Step2AnswersBonus1 from './02-state/answers/App.bonus-1'
-// import Step2AnswersBonus2 from './02-state/answers/App.bonus-2'
+import Step2 from './02-state/App'
+import Step2Teach from './02-state/teach/App'
+import Step2Answers from './02-state/answers/App'
+import Step2AnswersBonus1 from './02-state/answers/App.bonus-1'
+import Step2AnswersBonus2 from './02-state/answers/App.bonus-2'
 
 // import Step3 from './03-effects/App'
 // import Step3Teach from './03-effects/teach/App'
@@ -155,8 +155,6 @@ const App = () => (
         <Step1 />
       </Route>
 
-      {/*}
-
       <Route path="/step-2/answers/bonus-1">
         <Step2AnswersBonus1 />
       </Route>
@@ -172,7 +170,6 @@ const App = () => (
       <Route path="/step-2">
         <Step2 />
       </Route>
-{*/}
       {/*}
 
       <Route path="/step-3/answers/bonus-1">
