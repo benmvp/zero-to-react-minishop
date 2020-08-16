@@ -24,7 +24,7 @@ import Step4Teach from './04-lists/teach/App'
 import Step4Answers from './04-lists/answers/App'
 import Step4AnswersBonus1 from './04-lists/answers/App.bonus-1'
 
-// import Quiz from './quiz/App'
+import Quiz from './quiz/App'
 
 const Index = () => (
   <main>
@@ -195,12 +195,10 @@ const App = () => (
       <Route path="/step-4">
         <Step4 />
       </Route>
-      {/*}
 
       <Route path="/quiz">
         <Quiz />
       </Route>
-{*/}
 
       <Route path="/">
         <Index />
