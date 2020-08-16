@@ -25,7 +25,7 @@ const Result = (props) => {
   )
 }
 
-const App = () => {
+const GiphySearch = () => {
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
   const url =
     'https://giphy.com/gifs/leroypatterson-cat-glasses-CjmvTCZf2U3p09Cn0h'
@@ -41,5 +41,7 @@ const App = () => {
     </main>
   )
 }
+
+const App = () => <GiphySearch />
 
 export default App

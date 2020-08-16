@@ -67,14 +67,14 @@ After you're done with the exercise and before jumping to the next step, please 
 - [JSX Tips and Gotchas for Beginners](https://ui.dev/jsx/)
 - [Components and Props](https://reactjs.org/docs/components-and-props.html)
 - [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
-- [Inline Styles](https://reactjs.org/docs/dom-elements.html#style)
-- [Material-UI](https://material-ui.com/)
-- [React + Foundation](https://react.foundation/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [Custom Prop Types](https://github.com/airbnb/prop-types)
 - [React without JSX](https://reactjs.org/docs/react-without-jsx.html)
 - [Babel REPL](http://babeljs.io/repl/)
+- [Inline Styles](https://reactjs.org/docs/dom-elements.html#style)
+  - [Material-UI](https://material-ui.com/)
+  - [React + Foundation](https://react.foundation/)
+  - [React Bootstrap](https://react-bootstrap.github.io/)
+  - [Tailwind CSS](https://tailwindcss.com/)
 
 ## 👉🏾 Next Step
 

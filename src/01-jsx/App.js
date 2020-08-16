@@ -28,7 +28,7 @@ import React from 'react'
   </div>
 */
 
-const App = () => {
+const GiphySearch = () => {
   return (
     <main>
       <h1>Giphy Search!</h1>
@@ -37,5 +37,7 @@ const App = () => {
     </main>
   )
 }
+
+const App = () => <GiphySearch />
 
 export default App
