@@ -64,4 +64,4 @@ After you're done with the exercise and before jumping to the next step, please 
 
 ## 👉🏾 Next Step
 
-Go to [Step 4 - Lists](../03-lists).
+Go to [Step 4 - Lists & Conditionals](../03-lists).

@@ -53,7 +53,7 @@ const App = () => {
 
 ### 2. Create a component
 
-Extract the JSX markup for the Giphy search result into a `Result` component and pass the variables as props to `<Result />`.
+Extract the JSX markup for the Giphy search result card into a `Result` component and pass the variables as props to `<Result />`.
 
 ## 🧠 Elaboration & Feedback
 

@@ -37,7 +37,14 @@ const GiphySearch = () => {
     <main>
       <h1>Giphy Search!</h1>
 
-      <Result title={title} url={url} previewUrl={previewUrl} rating={rating} />
+      <div class="callout primary">
+        <Result
+          title={title}
+          url={url}
+          previewUrl={previewUrl}
+          rating={rating}
+        />
+      </div>
     </main>
   )
 }

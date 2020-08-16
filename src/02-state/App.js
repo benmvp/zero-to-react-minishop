@@ -54,7 +54,14 @@ const GiphySearch = ({ initialQuery }) => {
       {/* 👇🏾 pass `useState` update function as `onQueryChange` prop */}
       <SearchForm query={query} />
 
-      <Result title={title} url={url} previewUrl={previewUrl} rating={rating} />
+      <div class="callout primary">
+        <Result
+          title={title}
+          url={url}
+          previewUrl={previewUrl}
+          rating={rating}
+        />
+      </div>
     </main>
   )
 }
