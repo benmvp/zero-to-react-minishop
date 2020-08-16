@@ -39,6 +39,7 @@ const SearchForm = ({ query, onQueryChange }) => {
 
 const GiphySearch = ({ initialQuery }) => {
   const [query, setQuery] = useState(initialQuery)
+  const [results, setResults] = useState([])
 
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
   const url =
@@ -54,9 +55,9 @@ const GiphySearch = ({ initialQuery }) => {
     // call it immediately
     const fetchResults = async () => {
       try {
-        const results = await getResults({ query })
+        const apiResults = await getResults({ query })
 
-        console.log(results)
+        setResults(apiResults)
       } catch (err) {
         console.error(err)
       }
@@ -64,6 +65,9 @@ const GiphySearch = ({ initialQuery }) => {
 
     fetchResults()
   }, [query])
+
+  // Log `results` for now
+  console.log(results)
 
   return (
     <main>

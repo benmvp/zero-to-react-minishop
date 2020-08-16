@@ -39,6 +39,7 @@ const SearchForm = ({ query, onQueryChange }) => {
 
 const GiphySearch = ({ initialQuery, pollInterval }) => {
   const [query, setQuery] = useState(initialQuery)
+  const [results, setResults] = useState([])
 
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
   const url =
@@ -50,8 +51,8 @@ const GiphySearch = ({ initialQuery, pollInterval }) => {
   useEffect(() => {
     const fetchResults = () => {
       getResults({ query }).then(
-        (results) => {
-          console.log(results)
+        (apiResults) => {
+          setResults(apiResults)
         },
         (err) => {
           console.error(err)
@@ -68,6 +69,9 @@ const GiphySearch = ({ initialQuery, pollInterval }) => {
       clearInterval(pollId)
     }
   }, [query, pollInterval])
+
+  // Log `results` for now
+  console.log(results)
 
   return (
     <main>

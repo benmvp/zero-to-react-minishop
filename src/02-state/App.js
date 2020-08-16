@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Result = ({ title, url, previewUrl, rating }) => {
   return (
@@ -39,7 +39,6 @@ const SearchForm = ({ query, onQueryChange }) => {
 const GiphySearch = ({ initialQuery }) => {
   const query = initialQuery
   // 👆🏾 Replace constant with `useState` hook initialized to 'initialQuery'
-  // 👆🏾 NOTE: Don't forget to import `useState` up top
 
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
   const url =

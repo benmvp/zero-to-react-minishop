@@ -39,6 +39,7 @@ const SearchForm = ({ query, onQueryChange }) => {
 
 const GiphySearch = ({ initialQuery }) => {
   const [query, setQuery] = useState(initialQuery)
+  const [results, setResults] = useState([])
 
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
   const url =
@@ -49,14 +50,17 @@ const GiphySearch = ({ initialQuery }) => {
 
   useEffect(() => {
     getResults({ query }).then(
-      (results) => {
-        console.log(results)
+      (apiResults) => {
+        setResults(apiResults)
       },
       (err) => {
         console.error(err)
       },
     )
   }, [query])
+
+  // Log `results` for now
+  console.log(results)
 
   return (
     <main>

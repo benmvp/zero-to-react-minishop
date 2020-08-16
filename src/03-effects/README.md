@@ -27,9 +27,9 @@ Your app should automatically reset and you should be able to continue on with t
 
 ## 💡 Exercises
 
-In [`App.js`](./App.js), use the `useEffect` hook to make an API request for Giphy results whenever the query changes.
+In [`App.js`](./App.js), use the `useEffect` hook to make an API request for Giphy results whenever the query changes and update the new `results` state with the API response.
 
-> NOTE: The API results are logged to the console.
+> NOTE: The API results are only logged to the console for now.
 
 ## 🤓 Bonus!
 
