@@ -92,7 +92,7 @@ If at any point you get stuck, you can find the answers in the `answers/` direct
 - [Step 2 - State](src/02-state/)
 - 😴 10 minutes
 - [Step 3 - Effects](src/03-effects/)
-- [Step 4 - Lists](src/04-lists/)
+- [Step 4 - Lists & Conditionals](src/04-lists/)
 - ❓ Q & A
 - [Final Quiz!](src/quiz/)
 - 👋🏾 Goodbye!

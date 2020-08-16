@@ -19,11 +19,10 @@ import Step3Answers from './03-effects/answers/App'
 import Step3AnswersBonus1 from './03-effects/answers/App.bonus-1'
 import Step3AnswersBonus2 from './03-effects/answers/App.bonus-2'
 
-// import Step4 from './04-lists/App'
-// import Step4Teach from './04-lists/teach/App'
-// import Step4Answers from './04-lists/answers/App'
-// import Step4AnswersBonus1 from './04-lists/answers/bonus-1/App'
-// import Step4AnswersBonus2 from './04-lists/answers/bonus-2/App'
+import Step4 from './04-lists/App'
+import Step4Teach from './04-lists/teach/App'
+import Step4Answers from './04-lists/answers/App'
+import Step4AnswersBonus1 from './04-lists/answers/App.bonus-1'
 
 // import Quiz from './quiz/App'
 
@@ -124,9 +123,6 @@ const Index = () => (
               <Link to="/step-4/answers/bonus-1">Answers (Bonus #1)</Link>
             </li>
             <li>
-              <Link to="/step-4/answers/bonus-2">Answers (Bonus #2)</Link>
-            </li>
-            <li>
               <Link to="/step-4/teach">Teach</Link>
             </li>
           </ul>
@@ -186,13 +182,9 @@ const App = () => (
       <Route path="/step-3">
         <Step3 />
       </Route>
-      {/*}
 
       <Route path="/step-4/answers/bonus-1">
         <Step4AnswersBonus1 />
-      </Route>
-      <Route path="/step-4/answers/bonus-2">
-        <Step4AnswersBonus2 />
       </Route>
       <Route path="/step-4/answers">
         <Step4Answers />
@@ -203,7 +195,6 @@ const App = () => (
       <Route path="/step-4">
         <Step4 />
       </Route>
-{*/}
       {/*}
 
       <Route path="/quiz">
