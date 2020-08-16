@@ -59,6 +59,9 @@ const GiphySearch = ({ initialQuery }) => {
     )
   }, [query])
 
+  // 👇🏾 Remove after displaying UI
+  console.log(results)
+
   return (
     <main>
       <h1>Giphy Search!</h1>

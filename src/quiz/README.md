@@ -36,4 +36,4 @@ After you're done with the quiz, please fill out the [elaboration & feedback for
 
 ## 💲 Minishop discount
 
-Hopefully you enjoyed working on the quiz to help apply everything you learned. To say "congratulations," I'm offering a **25% discount** on any future minishop. Just send me an email to team@benmvp.com before you register for the minishop, and I will send you a discount code. Congratulations! 🎉
+Hopefully you enjoyed working on the quiz to help you apply everything you learned. To say "congratulations," I'm offering a one-time **25% discount** on any future minishop. Just send me an email to team@benmvp.com before you register for the minishop, and I will send you a discount code. Congratulations! 🎉

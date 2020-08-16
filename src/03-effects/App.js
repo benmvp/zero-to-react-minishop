@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import { getResults } from '../api'
+import React, { useState /*, useEffect*/ } from 'react'
+
+// 👇🏾 Uncomment when implementing
+// import { getResults } from '../api'
 
 const Result = ({ title, url, previewUrl, rating }) => {
   return (
@@ -40,8 +42,8 @@ const SearchForm = ({ query, onQueryChange }) => {
 const GiphySearch = ({ initialQuery }) => {
   const [query, setQuery] = useState(initialQuery)
 
-  // 👇🏾 New results state
-  const [results, setResults] = useState([])
+  // 👇🏾 New results state (uncomment when implementing)
+  const [results /*, setResults*/] = useState([])
 
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
   const url =
@@ -52,6 +54,7 @@ const GiphySearch = ({ initialQuery }) => {
 
   // 👇🏾 Using the `useEffect` hook, make the following API
   // 👇🏾 call whenever the query changes and update the results state
+  // 👇🏾 NOTE: Don't forget to import `useEffect` at the top
   // getResults({ query }).then(
   //   (apiResults) => {
   //     // 👈🏾 Call `setResults` with the `apiResults` to update the state
