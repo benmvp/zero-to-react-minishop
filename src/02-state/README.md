@@ -26,16 +26,21 @@ Your app should automatically reset and you should be able to continue on with t
 - Maintaining component state with the `useState` hook
 - Handling user interaction
 - Handling HTML form elements
+- Passing data back up the component tree
 
 ## 💡 Exercises
 
-In [App.js](./App.js), update the text input in the `SearchForm` component to maintain its value in React using the `useState` hook.
+In [App.js](./App.js):
+
+- Update `GiphySearch` to maintain the query value using the `useState` hook
+- Pass the query value as well as a handler for when the query is updated to `SearchForm`
+- Update the text input in the `SearchForm` to set its value based on the query value and call the handler when its value changes
 
 ## 🤓 Bonus!
 
 ### 1. Display the query
 
-Add a `<p>` below the `<input>` that will display "You are searching for **[query]** on Giphy." (with the query in bold).
+Add a `<p>` below the `<SearchForm>` that will display "You are searching for **[query]** on Giphy." (with the query in bold).
 
 ### 2. Capitalize the message
 

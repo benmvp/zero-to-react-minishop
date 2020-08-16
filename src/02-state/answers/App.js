@@ -23,22 +23,25 @@ const Result = ({ title, url, previewUrl, rating }) => {
   )
 }
 
-const SearchForm = ({ initialQuery }) => {
-  const [query, setQuery] = useState(initialQuery)
-
+const SearchForm = ({ query, onQueryChange }) => {
   return (
-    <form>
+    <div style={{ maxWidth: 400, margin: '20px auto' }}>
       <input
         type="search"
         placeholder="Search Giphy"
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        // Call `onQueryChange` prop from the
+        // `onChange` prop of the input
+        onChange={(e) => onQueryChange(e.target.value)}
       />
-    </form>
+    </div>
   )
 }
 
-const App = () => {
+const GiphySearch = ({ initialQuery }) => {
+  // Define the query state
+  const [query, setQuery] = useState(initialQuery)
+
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
   const url =
     'https://giphy.com/gifs/leroypatterson-cat-glasses-CjmvTCZf2U3p09Cn0h'
@@ -50,11 +53,14 @@ const App = () => {
     <main>
       <h1>Giphy Search!</h1>
 
-      <SearchForm initialQuery="cats" />
+      {/* pass `setQuery as `onQueryChange` prop */}
+      <SearchForm query={query} onQueryChange={setQuery} />
 
       <Result title={title} url={url} previewUrl={previewUrl} rating={rating} />
     </main>
   )
 }
+
+const App = () => <GiphySearch initialQuery="cats" />
 
 export default App
