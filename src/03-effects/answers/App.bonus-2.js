@@ -66,7 +66,7 @@ const GiphySearch = ({ initialQuery }) => {
     fetchResults()
   }, [query])
 
-  // Log `results` for now
+  // Log `results` for now. We'll render in Step 4.
   console.log(results)
 
   return (

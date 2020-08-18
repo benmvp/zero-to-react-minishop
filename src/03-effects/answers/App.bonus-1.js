@@ -63,14 +63,14 @@ const GiphySearch = ({ initialQuery, pollInterval }) => {
     fetchResults()
 
     // Retrieve the results on specified polling interval
-    const pollId = setInterval(fetchResults, pollInterval * 1000)
+    const pollId = window.setInterval(fetchResults, pollInterval * 1000)
 
     return () => {
-      clearInterval(pollId)
+      window.clearInterval(pollId)
     }
   }, [query, pollInterval])
 
-  // Log `results` for now
+  // Log `results` for now. We'll render in Step 4.
   console.log(results)
 
   return (

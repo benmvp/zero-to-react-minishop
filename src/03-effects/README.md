@@ -29,17 +29,19 @@ Your app should automatically reset and you should be able to continue on with t
 
 In [`App.js`](./App.js), use the `useEffect` hook to make an API request for Giphy results whenever the query changes and update the new `results` state with the API response.
 
-> NOTE: The API results are only logged to the console for now.
+> NOTE: The API results are only logged to the console for now. We will render the results in [Step 4](../04-lists/).
+
+(If at any point you get stuck, you can take a peek at the [answers](./answers/App.js))
 
 ## 🤓 Bonus!
 
 ### 1. Polling
 
-Add polling to `GiphySearch` such that it will continually retrieve new results after a configurable amount of seconds. Add a `pollInterval` prop to `GiphySearch` and set it to 5 seconds in `App`. Verify that if you change `pollInterval` in the React Developer Tools the previous interval is cleaned up and a new one is created.
+Add polling to `GiphySearch` such that it will continually retrieve new Giphy results after a configurable amount of seconds. Add a `pollInterval` prop to `GiphySearch` and set it to 5 seconds in `App`. Verify that if you change `pollInterval` in the React Developer Tools the previous interval is cleaned up and a new one is created.
 
 ### 2. Async `useEffect`
 
-Use an `async` function for the call to `await getResults()` within `useEffect()` instead of calling `.then()` on its return value.
+Use an `async` function for the call to `await getResults()` within `useEffect()` instead of calling `.then()` on its return Promise value.
 
 🔑 _HINT:_ Remember that an `async` function **always** returns a `Promise`, but the only return value allowed for `useEffect()` is the cleanup function callback.
 

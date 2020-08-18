@@ -18,12 +18,12 @@ const Clock = ({ initialLocale, tickAmount }) => {
   const [locale, setLocale] = useState(initialLocale)
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
+    const intervalId = window.setInterval(() => {
       setTime(new Date())
     }, tickAmount)
 
     return () => {
-      clearInterval(intervalId)
+      window.clearInterval(intervalId)
     }
   }, [tickAmount])
 
@@ -33,7 +33,9 @@ const Clock = ({ initialLocale, tickAmount }) => {
 
   return (
     <div>
-      <p>The current time is {time.toLocaleTimeString(locale)}.</p>
+      <p>
+        The current time is <strong>{time.toLocaleTimeString(locale)}</strong>.
+      </p>
       <LocaleSelector locale={locale} onLocaleChange={setLocale} />
     </div>
   )
