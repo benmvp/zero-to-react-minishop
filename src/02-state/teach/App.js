@@ -19,11 +19,13 @@ const Clock = ({ initialLocale }) => {
 
   return (
     <div>
-      <p>The current time is {time.toLocaleTimeString(locale)}.</p>
-      <LocaleSelector locale={locale} onLocaleChange={setLocale} />
+      <p>
+        The current time is <strong>{time.toLocaleTimeString(locale)}</strong>.
+      </p>
       <button className="button" onClick={() => setTime(new Date())}>
         Update
       </button>
+      <LocaleSelector locale={locale} onLocaleChange={setLocale} />
     </div>
   )
 }

@@ -38,7 +38,8 @@ const SearchForm = ({ query, onQueryChange }) => {
 
 const GiphySearch = ({ initialQuery }) => {
   const query = initialQuery
-  // 👆🏾 Replace constant with `useState` hook initialized to 'initialQuery'
+  // 👆🏾 Replace constant with `useState` hook initialized to `initialQuery`
+  // 👆🏾 (`query` & `setQuery`)
   // 👆🏾 NOTE: Don't forget to import `useState` at the top
 
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
@@ -52,7 +53,7 @@ const GiphySearch = ({ initialQuery }) => {
     <main>
       <h1>Giphy Search!</h1>
 
-      {/* 👇🏾 pass `useState` update function as `onQueryChange` prop */}
+      {/* 👇🏾 call `setQuery` update function in `onQueryChange` prop */}
       <SearchForm query={query} />
 
       <div className="callout primary">

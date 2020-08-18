@@ -32,9 +32,11 @@ Your app should automatically reset and you should be able to continue on with t
 
 In [App.js](./App.js):
 
-- Update `GiphySearch` to maintain the query value using the `useState` hook
-- Pass the query value as well as a handler for when the query is updated to `SearchForm`
-- Update the text input in the `SearchForm` to set its value based on the query value and call the handler when its value changes
+1. Update `GiphySearch` to maintain the query value using the `useState` hook
+1. Call the `setQuery` update function in the `onQueryChange` prop of `SearchForm`
+1. Update the text input in the `SearchForm` to set its value based on the query value and call the `onQueryChange` prop with the changed text value
+
+(If at any point you get stuck, you can take a peek at the [answers](./answers/App.js))
 
 ## 🤓 Bonus!
 
