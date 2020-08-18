@@ -8,7 +8,7 @@
 [![Watch on GitHub](https://img.shields.io/github/watchers/benmvp/zero-to-react-minishop.svg?style=social)](https://github.com/benmvp/zero-to-react-minishop/watchers)
 [![Star on GitHub](https://img.shields.io/github/stars/benmvp/zero-to-react-minishop.svg?style=social)](https://github.com/benmvp/zero-to-react-minishop/stargazers)
 
-An exercise-based minishop by Ben Ilegbodu to learn the critical concepts needed for building modern React applications using hooks. Best if accompanied with [live facilitation](https://www.benmvp.com/minishops/zero-to-react-with-hooks/) by me 🙂.
+An exercise-based minishop by Ben Ilegbodu to introduce the critical concepts needed for building modern React applications using hooks. Best if accompanied with [live facilitation](https://www.benmvp.com/minishops/zero-to-react-with-hooks/) by me 🙂.
 
 ## Pre-Minishop Instructions
 
@@ -68,7 +68,7 @@ For those interested, the app is a standard app bootstrapped by [Create React Ap
 
 ## Minishop Outline
 
-Let's learn about React Hooks! ⚛️
+Let's learn about React! ⚛️
 
 ### 🧔🏾 About Me
 
