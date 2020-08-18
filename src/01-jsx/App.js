@@ -1,7 +1,7 @@
 import React from 'react'
 
 /*
-  HTML markup to convert to JSX
+  HTML markup to convert to JSX below
 
   <div class="callout primary">
     <div
