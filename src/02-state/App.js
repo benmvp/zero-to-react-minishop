@@ -29,7 +29,7 @@ const SearchForm = ({ query, onQueryChange }) => {
       <input
         type="search"
         placeholder="Search Giphy"
-        // 👈🏾 Set `query` prop as `value` attribute
+        // 👈🏾 3. Set `query` prop as `value` attribute
         // 👈🏾 Call `onQueryChange` prop from the `onChange` attribute of the input
       />
     </div>
@@ -38,7 +38,7 @@ const SearchForm = ({ query, onQueryChange }) => {
 
 const GiphySearch = ({ initialQuery }) => {
   const query = initialQuery
-  // 👆🏾 Replace constant with `useState` hook initialized to `initialQuery`
+  // 👆🏾 1. Replace constant with `useState` hook initialized to `initialQuery`
   // 👆🏾 (`query` & `setQuery`)
   // 👆🏾 NOTE: Don't forget to import `useState` at the top
 
@@ -53,7 +53,7 @@ const GiphySearch = ({ initialQuery }) => {
     <main>
       <h1>Giphy Search!</h1>
 
-      {/* 👇🏾 call `setQuery` update function in `onQueryChange` prop */}
+      {/* 👇🏾 2. call `setQuery` update function in `onQueryChange` prop */}
       <SearchForm query={query} />
 
       <div className="callout primary">
