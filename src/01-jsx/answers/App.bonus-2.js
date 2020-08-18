@@ -37,7 +37,7 @@ const GiphySearch = () => {
     <main>
       <h1>Giphy Search!</h1>
 
-      <div class="callout primary">
+      <div className="callout primary">
         <Result
           title={title}
           url={url}

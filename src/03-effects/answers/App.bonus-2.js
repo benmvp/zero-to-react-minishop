@@ -79,7 +79,7 @@ const GiphySearch = ({ initialQuery }) => {
         You are searching for <strong>{query}</strong> on Giphy.
       </p>
 
-      <div class="callout primary">
+      <div className="callout primary">
         <Result
           title={title}
           url={url}
