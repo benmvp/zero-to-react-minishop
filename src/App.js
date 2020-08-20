@@ -111,7 +111,7 @@ const Index = () => (
         </li>
 
         <li>
-          <h4>Step 4 - Lists</h4>
+          <h4>Step 4 - Lists &amp; Conditionals</h4>
           <ul className="nested vertical menu">
             <li>
               <Link to="/step-4">Exercises</Link>
