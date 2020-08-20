@@ -83,7 +83,7 @@ Hiya! 👋🏾 My name is Ben Ilegbodu. 😄
 
 ### 🕘 Schedule
 
-Each step in the minishop contains exercises to apply what you just learned. You will be migrating classes to new code using hooks. There are also bonuses if you've got extra time. The **exercises are intended to be a lot**, so don't worry if you don't finish them all.
+Each step in the minishop contains exercises to apply what you just learned. The **exercises are intended to be a lot**, so don't worry if you don't finish them all during the step. However, there are also bonuses if you finish with time remaining.
 
 If at any point you get stuck, you can find the answers in the `answers/` directory of the step.
 
