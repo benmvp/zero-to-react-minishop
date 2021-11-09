@@ -33,18 +33,18 @@
     ]
   },
   "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.0.1",
-    "url-lib": "^3.0.3"
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "6.0.1",
+    "url-lib": "3.0.3"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.15.0",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^2.4.1",
-    "react-scripts": "^4.0.3"
+    "@testing-library/jest-dom": "5.15.0",
+    "@testing-library/react": "12.1.2",
+    "@testing-library/user-event": "13.5.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.4.1",
+    "react-scripts": "4.0.3"
   }
 }
