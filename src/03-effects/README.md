@@ -54,7 +54,10 @@ After you're done with the exercise and before jumping to the next step, please 
 - [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 - [`useEffect` API Reference](https://reactjs.org/docs/hooks-reference.html#useeffect)
 - [React Hooks](https://www.youtube.com/watch?v=jd8R0a2Ur8Q) 📺
-- [Async React Hooks](https://www.youtube.com/watch?v=HQq5Sod8AEk) 📺
+- [Successfully using async functions in React useEffect](https://www.benmvp.com/blog/successfully-using-async-functions-useeffect-react/)
+- [Object & array dependencies in the React useEffect Hook](https://www.benmvp.com/blog/object-array-dependencies-react-useEffect-hook/)
+- [Helper functions in the React useEffect hook](https://www.benmvp.com/blog/helper-functions-react-useeffect-hook/)
+- [Handling async React component effects after unmount](https://www.benmvp.com/blog/handling-async-react-component-effects-after-unmount/)
 - [Introducing Hooks](https://www.youtube.com/watch?v=dpw9EHDh2bM) 📺
 - [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html)
 - [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)

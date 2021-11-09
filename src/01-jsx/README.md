@@ -45,7 +45,7 @@ const App = () => {
     <main>
       <h1>Giphy Search!</h1>
 
-      {/* Use variables within JSX markup here */}
+      {}
     </main>
   )
 }
@@ -71,10 +71,10 @@ After you're done with the exercise and before jumping to the next step, please 
 - [React without JSX](https://reactjs.org/docs/react-without-jsx.html)
 - [Babel REPL](http://babeljs.io/repl/)
 - [Inline Styles](https://reactjs.org/docs/dom-elements.html#style)
-  - [Material-UI](https://material-ui.com/)
-  - [React + Foundation](https://react.foundation/)
-  - [React Bootstrap](https://react-bootstrap.github.io/)
+  - [MUI](https://mui.com/)
   - [Tailwind CSS](https://tailwindcss.com/)
+  - [Chakra UI](https://chakra-ui.com/)
+  - [React Bootstrap](https://react-bootstrap.github.io/)
 
 ## 👉🏾 Next Step
 

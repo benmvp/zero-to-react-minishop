@@ -16,9 +16,9 @@ In order to maximize our time _during_ the minishop, please complete the followi
 
 - [ ] Set up the project (follow [setup instructions](#system-requirements) below)
 - [ ] Install and run [Zoom](https://zoom.us/) on the computer you'll be developing with
-- [ ] Install React Developer Tools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) (recommended) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/react-devtools/)
 - [ ] Install a JSX-friendly code editor, such as [Visual Studio Code](https://code.visualstudio.com/)
-- [ ] Brush up on modern [ES.next](http://www.benmvp.com/learning-es6-series/) features, if they are unfamiliar to you
+- [ ] Install React Developer Tools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) (recommended) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/react-devtools/)
+- [ ] Brush up on modern [ES.next](https://www.benmvp.com/blog/10-modern-javascript-features-awesome-react/) features, if they are unfamiliar to you
 
 The more prepared you are for the minishop, the better it will go for you! 👍🏾
 

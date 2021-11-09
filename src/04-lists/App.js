@@ -41,6 +41,8 @@ const GiphySearch = ({ initialQuery }) => {
   const [query, setQuery] = useState(initialQuery)
   const [results, setResults] = useState([])
 
+  // 👇🏾 Remove these variables and replace with looping
+  // 👇🏾 over `results`
   const title = "I'm Ready Lets Go GIF by Leroy Patterson"
   const url =
     'https://giphy.com/gifs/leroypatterson-cat-glasses-CjmvTCZf2U3p09Cn0h'

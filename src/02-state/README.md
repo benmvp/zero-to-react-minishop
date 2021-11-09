@@ -34,7 +34,7 @@ In [App.js](./App.js):
 
 1. Update `GiphySearch` to maintain the query value using the `useState` hook
 1. Call the `setQuery` update function in the `onQueryChange` prop of `SearchForm`
-1. Update the text input in the `SearchForm` to set its value based on the query value and call the `onQueryChange` prop with the changed text value
+1. Update the text input in the `SearchForm` to set its `value` based on the `query` value and call the `onQueryChange` prop with the changed text value
 
 (If at any point you get stuck, you can take a peek at the [answers](./answers/App.js))
 
@@ -61,6 +61,7 @@ After you're done with the exercise and before jumping to the next step, please 
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
 - [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
 - [`useState` API Reference](https://reactjs.org/docs/hooks-reference.html#usestate)
+- [Four characters can optimize your React component](https://www.benmvp.com/blog/four-characters-optimize-react-component/)
 - [`SyntheticEvent`](https://reactjs.org/docs/events.html)
 - [Forms](https://reactjs.org/docs/forms.html)
 - [DOM Elements](https://reactjs.org/docs/dom-elements.html)

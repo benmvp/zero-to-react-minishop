@@ -28,7 +28,7 @@ const Clock = ({ initialLocale, tickAmount }) => {
   }, [tickAmount])
 
   useEffect(() => {
-    document.title = locale
+    document.title = `Locale: ${locale}`
   }, [locale])
 
   return (

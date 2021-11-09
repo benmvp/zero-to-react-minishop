@@ -31,7 +31,7 @@ In [`App.js`](./App.js), map over the `results` state and render a `<Result>` fo
 
 > NOTE: Don't forget the `key` prop on the `<Result>` components
 
-Also, only render the entire results `<div>` when there are results.
+Also, only render the entire results container `<div>` when there are results.
 
 (If at any point you get stuck, you can take a peek at the [answers](./answers/App.js))
 
@@ -52,8 +52,9 @@ After you're done with the exercise and before jumping to the next step, please 
 ## 📕 Resources
 
 - [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
+  - [Looping in React](https://www.benmvp.com/blog/looping-in-react/)
   - [Why do I need Keys in React Lists?](https://programmingwithmosh.com/react/why-do-i-need-keys-in-react-lists/)
-- [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+- [Conditional rendering in React](https://www.benmvp.com/blog/conditional-rendering-react/)
 - [`Array.prototype.map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [Fragments](https://reactjs.org/docs/fragments.html)
 
