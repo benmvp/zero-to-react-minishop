@@ -25,7 +25,7 @@ The more prepared you are for the minishop, the better it will go for you! üëç
 ## System Requirements
 
 - [git](https://git-scm.com/) v2 or higher
-- [Node.js](https://nodejs.org/en/) v10 or higher
+- [Node.js](https://nodejs.org/en/) v14 or higher
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) v6 or higher
 
 All of these must also be available in your `PATH` in order to be run globally. To verify things are set up properly, run:
@@ -36,7 +36,7 @@ node --version
 npm --version
 ```
 
-If your node version is version 9 or lower, you can [install `nvm`](https://github.com/creationix/nvm#install-script) to manage multiple versions of node.
+If your node version is version 13 or lower, you can [install `nvm`](https://github.com/creationix/nvm#install-script) to manage multiple versions of node.
 
 If you have trouble with any of these, learn more about the `PATH` environment variable and how to fix it here for [Windows](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/) or [Mac/Linux](http://stackoverflow.com/a/24322978/971592).
 

@@ -1,10 +1,10 @@
 {
-  "name": "zero-to-react-minishop",
+  "name": "@benmvp/zero-to-react-minishop",
   "version": "0.1.0",
   "private": true,
   "license": "GPL-3.0-only",
   "engines": {
-    "node": ">=10",
+    "node": ">=14",
     "npm": ">=6"
   },
   "scripts": {
