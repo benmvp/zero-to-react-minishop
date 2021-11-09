@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 import Step1 from './01-jsx/App'
 import Step1Teach from './01-jsx/teach/App'
@@ -133,78 +133,36 @@ const Index = () => (
 )
 
 const App = () => (
-  <Router>
-    <Switch>
-      <Route path="/step-1/answers/bonus-1">
-        <Step1AnswersBonus1 />
-      </Route>
-      <Route path="/step-1/answers/bonus-2">
-        <Step1AnswersBonus2 />
-      </Route>
-      <Route path="/step-1/answers">
-        <Step1Answers />
-      </Route>
-      <Route path="/step-1/teach">
-        <Step1Teach />
-      </Route>
-      <Route path="/step-1">
-        <Step1 />
-      </Route>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Index />} />
 
-      <Route path="/step-2/answers/bonus-1">
-        <Step2AnswersBonus1 />
-      </Route>
-      <Route path="/step-2/answers/bonus-2">
-        <Step2AnswersBonus2 />
-      </Route>
-      <Route path="/step-2/answers">
-        <Step2Answers />
-      </Route>
-      <Route path="/step-2/teach">
-        <Step2Teach />
-      </Route>
-      <Route path="/step-2">
-        <Step2 />
-      </Route>
+      <Route path="/step-1" element={<Step1 />} />
+      <Route path="/step-1/teach" element={<Step1Teach />} />
+      <Route path="/step-1/answers" element={<Step1Answers />} />
+      <Route path="/step-1/answers/bonus-1" element={<Step1AnswersBonus1 />} />
+      <Route path="/step-1/answers/bonus-2" element={<Step1AnswersBonus2 />} />
 
-      <Route path="/step-3/answers/bonus-1">
-        <Step3AnswersBonus1 />
-      </Route>
-      <Route path="/step-3/answers/bonus-2">
-        <Step3AnswersBonus2 />
-      </Route>
-      <Route path="/step-3/answers">
-        <Step3Answers />
-      </Route>
-      <Route path="/step-3/teach">
-        <Step3Teach />
-      </Route>
-      <Route path="/step-3">
-        <Step3 />
-      </Route>
+      <Route path="/step-2" element={<Step2 />} />
+      <Route path="/step-2/teach" element={<Step2Teach />} />
+      <Route path="/step-2/answers" element={<Step2Answers />} />
+      <Route path="/step-2/answers/bonus-1" element={<Step2AnswersBonus1 />} />
+      <Route path="/step-2/answers/bonus-2" element={<Step2AnswersBonus2 />} />
 
-      <Route path="/step-4/answers/bonus-1">
-        <Step4AnswersBonus1 />
-      </Route>
-      <Route path="/step-4/answers">
-        <Step4Answers />
-      </Route>
-      <Route path="/step-4/teach">
-        <Step4Teach />
-      </Route>
-      <Route path="/step-4">
-        <Step4 />
-      </Route>
+      <Route path="/step-3" element={<Step3 />} />
+      <Route path="/step-3/teach" element={<Step3Teach />} />
+      <Route path="/step-3/answers" element={<Step3Answers />} />
+      <Route path="/step-3/answers/bonus-1" element={<Step3AnswersBonus1 />} />
+      <Route path="/step-3/answers/bonus-2" element={<Step3AnswersBonus2 />} />
 
-      <Route path="/quiz">
-        <Quiz />
-      </Route>
+      <Route path="/step-4" element={<Step4 />} />
+      <Route path="/step-4/teach" element={<Step4Teach />} />
+      <Route path="/step-4/answers" element={<Step4Answers />} />
+      <Route path="/step-4/answers/bonus-1" element={<Step4AnswersBonus1 />} />
 
-      <Route path="/">
-        <Index />
-      </Route>
-    </Switch>
-  </Router>
+      <Route path="/quiz" element={<Quiz />} />
+    </Routes>
+  </BrowserRouter>
 )
 
 export default App
