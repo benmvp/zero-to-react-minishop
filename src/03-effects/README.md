@@ -55,14 +55,14 @@ After you're done with the exercise and before jumping to the next step, please 
 - [`useEffect` API Reference](https://reactjs.org/docs/hooks-reference.html#useeffect)
 - [React Hooks](https://www.youtube.com/watch?v=jd8R0a2Ur8Q) 📺
 - [Successfully using async functions in React useEffect](https://www.benmvp.com/blog/successfully-using-async-functions-useeffect-react/)
-- [Object & array dependencies in the React useEffect Hook](https://www.benmvp.com/blog/object-array-dependencies-react-useEffect-hook/)
-- [Helper functions in the React useEffect hook](https://www.benmvp.com/blog/helper-functions-react-useeffect-hook/)
-- [Handling async React component effects after unmount](https://www.benmvp.com/blog/handling-async-react-component-effects-after-unmount/)
+- [Object & array dependencies in the React useEffect Hook](https://www.benmvp.com/blog/object-array-dependencies-react-useEffect-hook/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
+- [Helper functions in the React useEffect hook](https://www.benmvp.com/blog/helper-functions-react-useeffect-hook/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
+- [Handling async React component effects after unmount](https://www.benmvp.com/blog/handling-async-react-component-effects-after-unmount/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
 - [Introducing Hooks](https://www.youtube.com/watch?v=dpw9EHDh2bM) 📺
 - [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html)
 - [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) & Github's [`fetch` polyfill](https://github.com/github/fetch)
-  - [Learning ES6: Promises](http://www.benmvp.com/learning-es6-promises/)
+  - [Learning ES6: Promises](http://www.benmvp.com/learning-es6-promises/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
   - [Async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   - [HTTP Methods](http://restfulapi.net/http-methods/)
   - [Postman](https://www.getpostman.com/)

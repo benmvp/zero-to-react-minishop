@@ -61,7 +61,7 @@ After you're done with the exercise and before jumping to the next step, please 
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
 - [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
 - [`useState` API Reference](https://reactjs.org/docs/hooks-reference.html#usestate)
-- [Four characters can optimize your React component](https://www.benmvp.com/blog/four-characters-optimize-react-component/)
+- [Four characters can optimize your React component](https://www.benmvp.com/blog/four-characters-optimize-react-component/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
 - [`SyntheticEvent`](https://reactjs.org/docs/events.html)
 - [Forms](https://reactjs.org/docs/forms.html)
 - [DOM Elements](https://reactjs.org/docs/dom-elements.html)

@@ -12,7 +12,7 @@ Feedback is a gift. 🎁 Now that you're done with the minishop, I would greatly
 
 ## 🤓 BenMVP Newsletter
 
-If you enjoyed the minishop, there's still more opportunities to learn! Subscribe to the [BenMVP Newsletter](https://www.benmvp.com/subscribe/?utm_source=github&utm_medium=minishop&utm_campaign=zero-to-react-minishop) and you'll receive a weekly-ish email from me on JavaScript, TypeScript, React, [DivOps](https://www.benmvp.com/blog/what-divops-engineer/), and other related web frontend technologies.
+If you enjoyed the minishop, there's still more opportunities to learn! Subscribe to the [BenMVP Newsletter](https://www.benmvp.com/subscribe/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop) and you'll receive a weekly-ish email from me on JavaScript, TypeScript, React, [DivOps](https://www.benmvp.com/blog/what-divops-engineer/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop), and other related web frontend technologies.
 
 ## 👉🏾 Next Step
 

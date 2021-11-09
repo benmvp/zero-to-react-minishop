@@ -52,9 +52,9 @@ After you're done with the exercise and before jumping to the next step, please 
 ## 📕 Resources
 
 - [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
-  - [Looping in React](https://www.benmvp.com/blog/looping-in-react/)
+  - [Looping in React](https://www.benmvp.com/blog/looping-in-react/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
   - [Why do I need Keys in React Lists?](https://programmingwithmosh.com/react/why-do-i-need-keys-in-react-lists/)
-- [Conditional rendering in React](https://www.benmvp.com/blog/conditional-rendering-react/)
+- [Conditional rendering in React](https://www.benmvp.com/blog/conditional-rendering-react/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
 - [`Array.prototype.map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [Fragments](https://reactjs.org/docs/fragments.html)
 

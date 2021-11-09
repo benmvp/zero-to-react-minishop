@@ -8,7 +8,7 @@
 [![Watch on GitHub](https://img.shields.io/github/watchers/benmvp/zero-to-react-minishop.svg?style=social)](https://github.com/benmvp/zero-to-react-minishop/watchers)
 [![Star on GitHub](https://img.shields.io/github/stars/benmvp/zero-to-react-minishop.svg?style=social)](https://github.com/benmvp/zero-to-react-minishop/stargazers)
 
-An exercise-based minishop by Ben Ilegbodu to introduce the critical concepts needed for building modern React applications using hooks. Best if accompanied with [live facilitation](https://www.benmvp.com/minishops/zero-to-react-with-hooks/) by me 🙂.
+An exercise-based minishop by Ben Ilegbodu to introduce the critical concepts needed for building modern React applications using hooks. Best if accompanied with [live facilitation](https://www.benmvp.com/minishops/zero-to-react-with-hooks/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop) by me 🙂.
 
 ## Pre-Minishop Instructions
 
@@ -18,7 +18,7 @@ In order to maximize our time _during_ the minishop, please complete the followi
 - [ ] Install and run [Zoom](https://zoom.us/) on the computer you'll be developing with
 - [ ] Install a JSX-friendly code editor, such as [Visual Studio Code](https://code.visualstudio.com/)
 - [ ] Install React Developer Tools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) (recommended) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/react-devtools/)
-- [ ] Brush up on modern [ES.next](https://www.benmvp.com/blog/10-modern-javascript-features-awesome-react/) features, if they are unfamiliar to you
+- [ ] Brush up on modern [ES.next](https://www.benmvp.com/blog/10-modern-javascript-features-awesome-react/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop) features, if they are unfamiliar to you
 
 The more prepared you are for the minishop, the better it will go for you! 👍🏾
 
@@ -78,9 +78,9 @@ Hiya! 👋🏾 My name is Ben Ilegbodu. 😄
 - Pittsburg, California
 - Principal Frontend Engineer at [Stitch Fix](https://www.stitchfix.com/) (and yes [we're hiring](https://www.stitchfix.com/careers/jobs)!)
 - [@benmvp](https://twitter.com/benmvp)
-- [www.benmvp.com](https://www.benmvp.com/)
+- [www.benmvp.com](https://www.benmvp.com/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
 - Go Rockets! 🚀🏀
-- Subscribe to the [BenMVP Newsletter](https://www.benmvp.com/subscribe/?utm_source=github&utm_medium=minishop&utm_campaign=zero-to-react-minishop)
+- Subscribe to the [BenMVP Newsletter](https://www.benmvp.com/subscribe/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop)
 
 ### 🕘 Schedule
 
@@ -101,7 +101,7 @@ If at any point you get stuck, you can find the answers in the `answers/` direct
 ### ❓ Asking Questions
 
 - Please **interrupt me** and ask questions! Others likely will have the _same question_.
-- However, unrelated questions are better sent to [Twitter](https://twitter.com/benmvp) or [my AMA](http://www.benmvp.com/ama).
+- However, unrelated questions are better sent to [Twitter](https://twitter.com/benmvp) or [my AMA](http://www.benmvp.com/ama?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop).
 
 ### 🖥️ Zoom Hygiene
 
@@ -132,7 +132,7 @@ At the end of the minishop, I would greatly appreciate your overall feedback. [S
 
 ### 🤝 Code of Conduct
 
-All attendees, speakers, sponsors and volunteers at this minishop are required to agree with the [code of conduct](https://www.benmvp.com/minishops/conduct/). Organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
+All attendees, speakers, sponsors and volunteers at this minishop are required to agree with the [code of conduct](https://www.benmvp.com/minishops/conduct/?utm_source=github&utm_medium=minishop-code&utm_campaign=zero-to-react-minishop). Organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
 
 ## License
 
