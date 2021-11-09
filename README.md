@@ -80,6 +80,7 @@ Hiya! 👋🏾 My name is Ben Ilegbodu. 😄
 - [@benmvp](https://twitter.com/benmvp)
 - [www.benmvp.com](https://www.benmvp.com/)
 - Go Rockets! 🚀🏀
+- Subscribe to the [BenMVP Newsletter](https://www.benmvp.com/subscribe/?utm_source=github&utm_medium=minishop&utm_campaign=zero-to-react-minishop)
 
 ### 🕘 Schedule
 

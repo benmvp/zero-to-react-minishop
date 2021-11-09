@@ -10,6 +10,10 @@ Hopefully, you'll get to apply this learning right away at your job or in a side
 
 Feedback is a gift. 🎁 Now that you're done with the minishop, I would greatly appreciate your overall feedback on the minishop to help make it even better for the next learners. **[Share your minishop feedback](https://bit.ly/zero-react-ms-feedback)**.
 
+## 🤓 BenMVP Newsletter
+
+If you enjoyed the minishop, there's still more opportunities to learn! Subscribe to the [BenMVP Newsletter](https://www.benmvp.com/subscribe/?utm_source=github&utm_medium=minishop&utm_campaign=zero-to-react-minishop) and you'll receive a weekly-ish email from me on JavaScript, TypeScript, React, [DivOps](https://www.benmvp.com/blog/what-divops-engineer/), and other related web frontend technologies.
+
 ## 👉🏾 Next Step
 
 Go to the [Final Quiz](../quiz/).
