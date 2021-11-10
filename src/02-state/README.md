@@ -38,6 +38,10 @@ In [App.js](./App.js):
 
 (If at any point you get stuck, you can take a peek at the [answers](./answers/App.js))
 
+## 🧠 Elaboration & Feedback
+
+After you're done with the exercise and before jumping to the next step, please fill out the [elaboration & feedback form](https://docs.google.com/forms/d/e/1FAIpQLScRocWvtbrl4XmT5_NRiE8bSK3CMZil-ZQByBAt8lpsurcRmw/viewform?usp=pp_url&entry.1671251225=Zero+to+React+with+Hooks+Minishop&entry.1984987236=Step+2+-+State). It will help seal in what you've learned.
+
 ## 🤓 Bonus!
 
 ### 1. Display the query
@@ -47,10 +51,6 @@ Add a `<p>` below the `<SearchForm>` that will display "You are searching for **
 ### 2. Capitalize the message
 
 Add a button that when clicked will toggle the entire query message between being upper-case and normal case.
-
-## 🧠 Elaboration & Feedback
-
-After you're done with the exercise and before jumping to the next step, please fill out the [elaboration & feedback form](https://docs.google.com/forms/d/e/1FAIpQLScRocWvtbrl4XmT5_NRiE8bSK3CMZil-ZQByBAt8lpsurcRmw/viewform?usp=pp_url&entry.1671251225=Zero+to+React+with+Hooks+Minishop&entry.1984987236=Step+2+-+State). It will help seal in what you've learned.
 
 ## 📕 Resources
 

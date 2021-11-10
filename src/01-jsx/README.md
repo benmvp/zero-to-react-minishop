@@ -26,6 +26,10 @@ _Reminder:_ The `style` attribute in JSX takes an object.
 
 (If at any point you get stuck, you can take a peek at the [answers](./answers/App.js))
 
+## 🧠 Elaboration & Feedback
+
+After you're done with the exercise and before jumping to the next step, please fill out the [elaboration & feedback form](https://docs.google.com/forms/d/e/1FAIpQLScRocWvtbrl4XmT5_NRiE8bSK3CMZil-ZQByBAt8lpsurcRmw/viewform?usp=pp_url&entry.1671251225=Zero+to+React+with+Hooks+Minishop&entry.1984987236=Step+1+-+JSX+and+Components). It will help seal in what you've learned.
+
 ## 🤓 Bonus!
 
 ### 1. Use variables
@@ -54,10 +58,6 @@ const App = () => {
 ### 2. Create a component
 
 Extract the JSX markup for the Giphy search result card into a `Result` component and pass the variables as props to `<Result />`.
-
-## 🧠 Elaboration & Feedback
-
-After you're done with the exercise and before jumping to the next step, please fill out the [elaboration & feedback form](https://docs.google.com/forms/d/e/1FAIpQLScRocWvtbrl4XmT5_NRiE8bSK3CMZil-ZQByBAt8lpsurcRmw/viewform?usp=pp_url&entry.1671251225=Zero+to+React+with+Hooks+Minishop&entry.1984987236=Step+1+-+JSX+and+Components). It will help seal in what you've learned.
 
 ## 📕 Resources
 

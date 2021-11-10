@@ -35,6 +35,10 @@ Also, only render the entire results container `<div>` when there are results.
 
 (If at any point you get stuck, you can take a peek at the [answers](./answers/App.js))
 
+## 🧠 Elaboration & Feedback
+
+After you're done with the exercise and before jumping to the next step, please fill out the [elaboration & feedback form](https://docs.google.com/forms/d/e/1FAIpQLScRocWvtbrl4XmT5_NRiE8bSK3CMZil-ZQByBAt8lpsurcRmw/viewform?usp=pp_url&entry.1671251225=Zero+to+React+with+Hooks+Minishop&entry.1984987236=Step+4+-+Lists+and+Conditionals). It will help seal in what you've learned.
+
 ## 🤓 Bonus!
 
 ### 1. Add limit filter
@@ -44,10 +48,6 @@ Add a `<select>` element to the `SearchForm` to change the number of Giphy image
 - Declare a `const LIMITS = ['6', '12', '18', '24', '30']` constant and map over it to generate the `<option value={limit}>` elements within the `<select>`
 - Add an `initialLimit` prop to `GiphySearch` and set it to 12
 - The `getResults` API call takes a property called `limit` to control the number of results returned
-
-## 🧠 Elaboration & Feedback
-
-After you're done with the exercise and before jumping to the next step, please fill out the [elaboration & feedback form](https://docs.google.com/forms/d/e/1FAIpQLScRocWvtbrl4XmT5_NRiE8bSK3CMZil-ZQByBAt8lpsurcRmw/viewform?usp=pp_url&entry.1671251225=Zero+to+React+with+Hooks+Minishop&entry.1984987236=Step+4+-+Lists+and+Conditionals). It will help seal in what you've learned.
 
 ## 📕 Resources
 
