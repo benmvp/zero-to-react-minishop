@@ -40,7 +40,9 @@ const Index = () => (
           <h4>Step 1 - JSX &amp; Components</h4>
           <ul className="nested vertical menu">
             <li>
-              <Link to="/step-1">Exercises</Link>
+              <Link to="/step-1">
+                <strong>Exercises</strong>
+              </Link>
             </li>
             <li>
               <Link to="/step-1/answers">Answers</Link>
@@ -61,7 +63,9 @@ const Index = () => (
           <h4>Step 3 - Effects</h4>
           <ul className="nested vertical menu">
             <li>
-              <Link to="/step-3">Exercises</Link>
+              <Link to="/step-3">
+                <strong>Exercises</strong>
+              </Link>
             </li>
             <li>
               <Link to="/step-3/answers">Answers</Link>
@@ -82,7 +86,9 @@ const Index = () => (
           <h4>Final Quiz</h4>
           <ul className="nested vertical menu">
             <li>
-              <Link to="/quiz">Exercise</Link>
+              <Link to="/quiz">
+                <strong>Exercise</strong>
+              </Link>
             </li>
           </ul>
         </li>
@@ -93,7 +99,9 @@ const Index = () => (
           <h4>Step 2 - State</h4>
           <ul className="nested vertical menu">
             <li>
-              <Link to="/step-2">Exercises</Link>
+              <Link to="/step-2">
+                <strong>Exercises</strong>
+              </Link>
             </li>
             <li>
               <Link to="/step-2/answers">Answers</Link>
@@ -114,7 +122,9 @@ const Index = () => (
           <h4>Step 4 - Lists &amp; Conditionals</h4>
           <ul className="nested vertical menu">
             <li>
-              <Link to="/step-4">Exercises</Link>
+              <Link to="/step-4">
+                <strong>Exercises</strong>
+              </Link>
             </li>
             <li>
               <Link to="/step-4/answers">Answers</Link>
