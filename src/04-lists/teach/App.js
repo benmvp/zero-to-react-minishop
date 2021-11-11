@@ -43,7 +43,9 @@ const Clock = ({ initialLocale, tickAmount, allowLocaleSwitch }) => {
 
   return (
     <div>
-      <p>The current time is {time.toLocaleTimeString(locale)}.</p>
+      <p>
+        The current time is <strong>{time.toLocaleTimeString(locale)}</strong>.
+      </p>
       {allowLocaleSwitch && (
         <LocaleSelector locale={locale} onLocaleChange={setLocale} />
       )}
